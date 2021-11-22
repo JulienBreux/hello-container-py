@@ -1,5 +1,0 @@
-steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/container-repo/hello-container-py', '.' ]
-images:
-- 'us-central1-docker.pkg.dev/$PROJECT_ID/container-repo/hello-container-py'
